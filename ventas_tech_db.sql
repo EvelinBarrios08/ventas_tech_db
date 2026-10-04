@@ -3,7 +3,11 @@
 -- Autora: Barrios Evelin Eliana
 -- ══════════════════════════════════════════
 
+IF DB_ID ('Ventas_Tech_DB') IS NULL
+BEGIN
 CREATE DATABASE Ventas_Tech_DB;
+END;
+
 USE Ventas_Tech_DB;
 
 -- ══════════════════════════════════════════
